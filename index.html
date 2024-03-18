@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">BULB PROJECT</h1>
+    <center>
+    <img src="./bulboff.jpg" alt="" id="bulbon" style="height: 500px;width: 350px;">
+    </center>
+    <div class="buttons">
+        <center>
+        <input type="submit" value="On" onclick="BulbOn()";>
+        <input type="submit" value="off" onclick="BulbOff()";>
+        </center>
+    </div>
+    <script>
+        function BulbOn()
+{
+    document.getElementById("bulbon").src="Bulbon.png"
+}
+
+
+function BulbOff()
+{
+    document.getElementById("bulbon").src="bulboff.jpg"
+}
+    </script>
+</body>
+</html>
